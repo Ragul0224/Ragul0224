@@ -1,19 +1,57 @@
 <svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
 <defs>
   <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse"><stop stop-color="#030507"/><stop offset="0.5" stop-color="#0B1220"/><stop offset="1" stop-color="#030507"/></linearGradient>
-  <linearGradient id="text" x1="240" y1="80" x2="960" y2="260" gradientUnits="userSpaceOnUse"><stop stop-color="#58A6FF"/><stop offset="0.5" stop-color="#A7D1FF"/><stop offset="1" stop-color="#7C5CFF"/></linearGradient>
-  <filter id="glow"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" stroke="#58A6FF" stroke-opacity="0.09"/></pattern>
+  <linearGradient id="text" x1="260" y1="80" x2="940" y2="250" gradientUnits="userSpaceOnUse"><stop stop-color="#58A6FF"/><stop offset="0.5" stop-color="#E7F1FF"/><stop offset="1" stop-color="#8B7CFF"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" stroke="#58A6FF" stroke-opacity="0.08"/></pattern>
 </defs>
 <rect width="1200" height="360" rx="24" fill="url(#bg)"/>
-<rect x="1" y="1" width="1198" height="358" rx="23" stroke="#58A6FF" stroke-opacity="0.18"/>
 <rect width="1200" height="360" fill="url(#grid)"/>
-<g opacity="0.35" filter="url(#glow)"><circle cx="110" cy="80" r="3" fill="#58A6FF"><animate attributeName="cy" values="80;300;80" dur="5s" repeatCount="indefinite"/></circle><circle cx="1080" cy="280" r="3" fill="#A7D1FF"><animate attributeName="cy" values="280;55;280" dur="6s" repeatCount="indefinite"/></circle></g>
-<g transform="translate(600 180)" opacity="0.45"><ellipse rx="330" ry="105" stroke="#58A6FF" stroke-opacity="0.18"/><ellipse rx="260" ry="78" stroke="#7C5CFF" stroke-opacity="0.18" transform="rotate(-18)"/><circle r="8" fill="#58A6FF" filter="url(#glow)"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="8s" repeatCount="indefinite"/></circle></g>
+<rect x="1" y="1" width="1198" height="358" rx="23" stroke="#58A6FF" stroke-opacity="0.18"/>
+
+<!-- cinematic scan line -->
+<rect x="40" y="0" width="1120" height="2" fill="#58A6FF" opacity="0.0" filter="url(#glow)">
+  <animate attributeName="y" values="0;358;0" dur="5s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="0;0.55;0" dur="5s" repeatCount="indefinite"/>
+</rect>
+
+<!-- orbit system -->
+<g transform="translate(600 180)">
+  <ellipse rx="365" ry="112" stroke="#58A6FF" stroke-opacity="0.13"/>
+  <ellipse rx="285" ry="88" stroke="#8B7CFF" stroke-opacity="0.13" transform="rotate(-22)"/>
+  <ellipse rx="215" ry="64" stroke="#58A6FF" stroke-opacity="0.10" transform="rotate(35)"/>
+  <g>
+    <circle cx="365" cy="0" r="4" fill="#58A6FF" filter="url(#glow)"/>
+    <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="9s" repeatCount="indefinite"/>
+  </g>
+  <g transform="rotate(120)">
+    <circle cx="285" cy="0" r="3" fill="#A7D1FF" filter="url(#glow)"/>
+    <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="7s" repeatCount="indefinite"/>
+  </g>
+  <circle r="7" fill="#D7E7FF" filter="url(#glow)">
+    <animate attributeName="r" values="5;10;5" dur="1.8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.55;1;0.55" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
+</g>
+
+<!-- floating data nodes -->
+<g fill="#58A6FF" filter="url(#glow)">
+  <circle cx="92" cy="82" r="2"><animate attributeName="cy" values="82;270;82" dur="6s" repeatCount="indefinite"/></circle>
+  <circle cx="1100" cy="278" r="2"><animate attributeName="cy" values="278;70;278" dur="7s" repeatCount="indefinite"/></circle>
+  <circle cx="180" cy="310" r="2"><animate attributeName="cx" values="180;300;180" dur="4.5s" repeatCount="indefinite"/></circle>
+</g>
+
 <text x="600" y="108" text-anchor="middle" fill="#8AB8FF" font-family="monospace" font-size="15" letter-spacing="5">GITHUB DEVELOPER PROFILE</text>
 <text x="600" y="170" text-anchor="middle" fill="url(#text)" font-family="Arial, sans-serif" font-size="58" font-weight="800" letter-spacing="8">RAGUL S</text>
 <text x="600" y="210" text-anchor="middle" fill="#D7E7FF" font-family="monospace" font-size="18">FULL STACK WEB DEVELOPER</text>
 <text x="600" y="246" text-anchor="middle" fill="#8FA8C7" font-family="monospace" font-size="14">PYTHON  •  DJANGO  •  JAVASCRIPT  •  REACT  •  SQL</text>
-<g font-family="monospace" font-size="11" fill="#58A6FF" opacity="0.75"><text x="54" y="320">01 / BUILD</text><text x="220" y="320">02 / DEBUG</text><text x="390" y="320">03 / LEARN</text><text x="560" y="320">04 / SHIP</text><text x="730" y="320">05 / IMPROVE</text><text x="930" y="320">06 / REPEAT</text></g>
-<rect x="54" y="334" width="1092" height="2" rx="1" fill="#58A6FF" opacity="0.15"><animate attributeName="opacity" values="0.08;0.4;0.08" dur="2.5s" repeatCount="indefinite"/></rect>
+
+<!-- animated activity bar -->
+<g font-family="monospace" font-size="11" fill="#58A6FF" opacity="0.75">
+  <text x="54" y="320">01 / BUILD</text><text x="220" y="320">02 / DEBUG</text><text x="390" y="320">03 / LEARN</text><text x="560" y="320">04 / SHIP</text><text x="730" y="320">05 / IMPROVE</text><text x="930" y="320">06 / REPEAT</text>
+</g>
+<rect x="54" y="334" width="1092" height="2" rx="1" fill="#58A6FF" opacity="0.12"/>
+<rect x="54" y="334" width="120" height="2" rx="1" fill="#58A6FF" filter="url(#glow)">
+  <animate attributeName="x" values="54;1026;54" dur="4s" repeatCount="indefinite"/>
+</rect>
 </svg>
