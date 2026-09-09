@@ -1,33 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="520" height="520" viewBox="0 0 520 520">
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="520" viewBox="0 0 520 520">
 <defs>
-  <radialGradient id="bg"><stop offset="0" stop-color="#152238"/><stop offset="1" stop-color="#030507"/></radialGradient>
-  <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#58a6ff"/><stop offset=".5" stop-color="#b7d8ff"/><stop offset="1" stop-color="#58a6ff"/></linearGradient>
-  <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-  <clipPath id="avatarClip"><circle cx="260" cy="260" r="168"/></clipPath>
+ <radialGradient id="bg"><stop stop-color="#152238"/><stop offset="1" stop-color="#030507"/></radialGradient>
+ <linearGradient id="ring"><stop stop-color="#58a6ff"/><stop offset=".5" stop-color="#e8f3ff"/><stop offset="1" stop-color="#58a6ff"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <clipPath id="clip"><circle cx="260" cy="245" r="168"/></clipPath>
 </defs>
 <rect width="520" height="520" rx="32" fill="url(#bg)"/>
-<g opacity=".35">
- <path d="M0 80H520M0 160H520M0 240H520M0 320H520M0 400H520M0 480H520" stroke="#19304b"/>
- <path d="M80 0V520M160 0V520M240 0V520M320 0V520M400 0V520M480 0V520" stroke="#19304b"/>
-</g>
-<g transform="translate(260 260)" fill="none" stroke="#58a6ff" opacity=".45">
+<g opacity=".25" stroke="#19304b"><path d="M0 80H520M0 160H520M0 240H520M0 320H520M0 400H520M0 480H520"/><path d="M80 0V520M160 0V520M240 0V520M320 0V520M400 0V520M480 0V520"/></g>
+<g transform="translate(260 245)" fill="none" stroke="#58a6ff" opacity=".45">
  <ellipse rx="205" ry="72"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="9s" repeatCount="indefinite"/></ellipse>
  <ellipse rx="205" ry="72" transform="rotate(60)"><animateTransform attributeName="transform" type="rotate" from="60" to="420" dur="13s" repeatCount="indefinite"/></ellipse>
 </g>
-<circle cx="260" cy="260" r="184" fill="none" stroke="#58a6ff" stroke-width="2" opacity=".28">
- <animate attributeName="r" values="178;194;178" dur="3s" repeatCount="indefinite"/>
- <animate attributeName="opacity" values=".18;.55;.18" dur="3s" repeatCount="indefinite"/>
-</circle>
-<circle cx="260" cy="260" r="174" fill="#05090f" stroke="url(#ring)" stroke-width="5" filter="url(#glow)"/>
-<image x="92" y="92" width="336" height="336" preserveAspectRatio="xMidYMid slice" clip-path="url(#avatarClip)" href="https://github.com/Ragul0224.png?size=500" xlink:href="https://github.com/Ragul0224.png?size=500"/>
-<circle cx="260" cy="260" r="168" fill="none" stroke="#ffffff" stroke-opacity=".22" stroke-width="2"/>
+<circle cx="260" cy="245" r="184" fill="none" stroke="#58a6ff" stroke-width="2" opacity=".28"><animate attributeName="r" values="178;194;178" dur="3s" repeatCount="indefinite"/><animate attributeName="opacity" values=".18;.55;.18" dur="3s" repeatCount="indefinite"/></circle>
+<circle cx="260" cy="245" r="174" fill="#05090f" stroke="url(#ring)" stroke-width="5" filter="url(#glow)"/>
+<image x="92" y="77" width="336" height="336" preserveAspectRatio="xMidYMid slice" clip-path="url(#clip)" href="data:image/jpeg;base64,{{BASE64_PHOTO}}"/>
+<circle cx="260" cy="245" r="168" fill="none" stroke="#fff" stroke-opacity=".28" stroke-width="2"/>
 <g filter="url(#glow)">
- <circle cx="260" cy="76" r="6" fill="#58a6ff"><animateTransform attributeName="transform" type="rotate" from="0 260 260" to="360 260 260" dur="4s" repeatCount="indefinite"/></circle>
- <circle cx="444" cy="260" r="5" fill="#b7d8ff"><animateTransform attributeName="transform" type="rotate" from="90 260 260" to="450 260 260" dur="6s" repeatCount="indefinite"/></circle>
- <circle cx="260" cy="444" r="5" fill="#58a6ff"><animateTransform attributeName="transform" type="rotate" from="180 260 260" to="540 260 260" dur="8s" repeatCount="indefinite"/></circle>
+ <circle cx="260" cy="61" r="6" fill="#58a6ff"><animateTransform attributeName="transform" type="rotate" from="0 260 245" to="360 260 245" dur="4s" repeatCount="indefinite"/></circle>
+ <circle cx="444" cy="245" r="5" fill="#b7d8ff"><animateTransform attributeName="transform" type="rotate" from="90 260 245" to="450 260 245" dur="6s" repeatCount="indefinite"/></circle>
+ <circle cx="260" cy="429" r="5" fill="#58a6ff"><animateTransform attributeName="transform" type="rotate" from="180 260 245" to="540 260 245" dur="8s" repeatCount="indefinite"/></circle>
 </g>
-<path d="M92 260H428" stroke="#58a6ff" stroke-width="2" opacity=".35">
- <animate attributeName="d" values="M92 220H428;M92 300H428;M92 220H428" dur="4s" repeatCount="indefinite"/>
-</path>
+<path d="M92 245H428" stroke="#58a6ff" stroke-width="2" opacity=".3"><animateTransform attributeName="transform" type="translate" values="0 -28;0 28;0 -28" dur="4s" repeatCount="indefinite"/></path>
 <text x="260" y="474" text-anchor="middle" fill="#8ab8ff" font-family="monospace" font-size="13" letter-spacing="4">RAGUL S • DEVELOPER PROFILE</text>
 </svg>
