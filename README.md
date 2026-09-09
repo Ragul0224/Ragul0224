@@ -2,6 +2,8 @@
 
 <img src="https://raw.githubusercontent.com/Ragul0224/Ragul0224/main/assets/github-profile-command-center.svg" width="100%" alt="Ragul S premium GitHub developer profile" />
 
+<img src="https://raw.githubusercontent.com/Ragul0224/Ragul0224/main/assets/profile-photo-animation.svg" width="280" alt="Animated Ragul S profile photo" />
+
 <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=24&duration=2200&pause=700&color=58A6FF&center=true&vCenter=true&width=950&lines=FRONTEND+DEVELOPER;FULL+STACK+WEB+DEVELOPER;PYTHON+%7C+DJANGO+%7C+REST+APIs;BUILDING+REAL-WORLD+WEB+APPLICATIONS;CODE.+CREATE.+SHIP.+REPEAT." alt="Animated developer roles" />
 
 <img src="https://komarev.com/ghpvc/?username=Ragul0224&style=for-the-badge&color=58A6FF&label=PROFILE+VIEWS" alt="Profile views" />
