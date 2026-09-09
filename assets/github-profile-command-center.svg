@@ -1,57 +1,32 @@
 <svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse"><stop stop-color="#030507"/><stop offset="0.5" stop-color="#0B1220"/><stop offset="1" stop-color="#030507"/></linearGradient>
-  <linearGradient id="text" x1="260" y1="80" x2="940" y2="250" gradientUnits="userSpaceOnUse"><stop stop-color="#58A6FF"/><stop offset="0.5" stop-color="#E7F1FF"/><stop offset="1" stop-color="#8B7CFF"/></linearGradient>
-  <filter id="glow"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" stroke="#58A6FF" stroke-opacity="0.08"/></pattern>
+<linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360"><stop stop-color="#020409"/><stop offset=".48" stop-color="#0A1424"/><stop offset="1" stop-color="#020409"/></linearGradient>
+<linearGradient id="hero" x1="250" y1="100" x2="950" y2="230"><stop stop-color="#5CC8FF"/><stop offset=".5" stop-color="#FFFFFF"/><stop offset="1" stop-color="#9B7CFF"/></linearGradient>
+<linearGradient id="beam"><stop stop-color="#58A6FF" stop-opacity="0"/><stop offset=".5" stop-color="#FFFFFF" stop-opacity=".9"/><stop offset="1" stop-color="#58A6FF" stop-opacity="0"/></linearGradient>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" stroke="#58A6FF" stroke-opacity=".075"/></pattern>
+<filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
 </defs>
 <rect width="1200" height="360" rx="24" fill="url(#bg)"/>
-<rect width="1200" height="360" fill="url(#grid)"/>
-<rect x="1" y="1" width="1198" height="358" rx="23" stroke="#58A6FF" stroke-opacity="0.18"/>
-
-<!-- cinematic scan line -->
-<rect x="40" y="0" width="1120" height="2" fill="#58A6FF" opacity="0.0" filter="url(#glow)">
-  <animate attributeName="y" values="0;358;0" dur="5s" repeatCount="indefinite"/>
-  <animate attributeName="opacity" values="0;0.55;0" dur="5s" repeatCount="indefinite"/>
-</rect>
-
-<!-- orbit system -->
-<g transform="translate(600 180)">
-  <ellipse rx="365" ry="112" stroke="#58A6FF" stroke-opacity="0.13"/>
-  <ellipse rx="285" ry="88" stroke="#8B7CFF" stroke-opacity="0.13" transform="rotate(-22)"/>
-  <ellipse rx="215" ry="64" stroke="#58A6FF" stroke-opacity="0.10" transform="rotate(35)"/>
-  <g>
-    <circle cx="365" cy="0" r="4" fill="#58A6FF" filter="url(#glow)"/>
-    <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="9s" repeatCount="indefinite"/>
-  </g>
-  <g transform="rotate(120)">
-    <circle cx="285" cy="0" r="3" fill="#A7D1FF" filter="url(#glow)"/>
-    <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="7s" repeatCount="indefinite"/>
-  </g>
-  <circle r="7" fill="#D7E7FF" filter="url(#glow)">
-    <animate attributeName="r" values="5;10;5" dur="1.8s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.55;1;0.55" dur="1.8s" repeatCount="indefinite"/>
-  </circle>
+<rect width="1200" height="360" rx="24" fill="url(#grid)"/>
+<rect x="1" y="1" width="1198" height="358" rx="23" stroke="#58A6FF" stroke-opacity=".22"/>
+<circle cx="150" cy="90" r="75" fill="#58A6FF" opacity=".07" filter="url(#soft)"><animate attributeName="opacity" values=".03;.12;.03" dur="4s" repeatCount="indefinite"/></circle>
+<circle cx="1050" cy="275" r="90" fill="#8A6CFF" opacity=".06" filter="url(#soft)"><animate attributeName="opacity" values=".02;.1;.02" dur="5s" repeatCount="indefinite"/></circle>
+<g filter="url(#glow)"><circle cx="90" cy="250" r="2" fill="#58A6FF"><animate attributeName="cy" values="250;70;250" dur="6s" repeatCount="indefinite"/></circle><circle cx="1110" cy="90" r="2" fill="#B7D9FF"><animate attributeName="cy" values="90;300;90" dur="7s" repeatCount="indefinite"/></circle><circle cx="210" cy="60" r="1.5" fill="#fff"><animate attributeName="cx" values="210;350;210" dur="5s" repeatCount="indefinite"/></circle><circle cx="990" cy="300" r="1.5" fill="#fff"><animate attributeName="cx" values="990;850;990" dur="5.5s" repeatCount="indefinite"/></circle></g>
+<g transform="translate(600 184)">
+<ellipse rx="365" ry="112" stroke="#58A6FF" stroke-opacity=".13"/><ellipse rx="300" ry="82" stroke="#9B7CFF" stroke-opacity=".16" transform="rotate(-22)"/><ellipse rx="235" ry="58" stroke="#58A6FF" stroke-opacity=".12" transform="rotate(22)"/>
+<g><circle cx="365" cy="0" r="4" fill="#58A6FF" filter="url(#glow)"/><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="9s" repeatCount="indefinite"/></g>
+<g transform="rotate(125)"><circle cx="300" cy="0" r="3" fill="#BFAEFF" filter="url(#glow)"/><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="12s" repeatCount="indefinite"/></g>
+<circle r="5" fill="#FFFFFF" filter="url(#glow)"><animate attributeName="r" values="4;9;4" dur="1.7s" repeatCount="indefinite"/></circle><circle r="22" stroke="#58A6FF" stroke-opacity=".25"><animate attributeName="r" values="12;34;12" dur="2.8s" repeatCount="indefinite"/><animate attributeName="opacity" values=".5;0;.5" dur="2.8s" repeatCount="indefinite"/></circle>
 </g>
-
-<!-- floating data nodes -->
-<g fill="#58A6FF" filter="url(#glow)">
-  <circle cx="92" cy="82" r="2"><animate attributeName="cy" values="82;270;82" dur="6s" repeatCount="indefinite"/></circle>
-  <circle cx="1100" cy="278" r="2"><animate attributeName="cy" values="278;70;278" dur="7s" repeatCount="indefinite"/></circle>
-  <circle cx="180" cy="310" r="2"><animate attributeName="cx" values="180;300;180" dur="4.5s" repeatCount="indefinite"/></circle>
-</g>
-
-<text x="600" y="108" text-anchor="middle" fill="#8AB8FF" font-family="monospace" font-size="15" letter-spacing="5">GITHUB DEVELOPER PROFILE</text>
-<text x="600" y="170" text-anchor="middle" fill="url(#text)" font-family="Arial, sans-serif" font-size="58" font-weight="800" letter-spacing="8">RAGUL S</text>
-<text x="600" y="210" text-anchor="middle" fill="#D7E7FF" font-family="monospace" font-size="18">FULL STACK WEB DEVELOPER</text>
-<text x="600" y="246" text-anchor="middle" fill="#8FA8C7" font-family="monospace" font-size="14">PYTHON  •  DJANGO  •  JAVASCRIPT  •  REACT  •  SQL</text>
-
-<!-- animated activity bar -->
-<g font-family="monospace" font-size="11" fill="#58A6FF" opacity="0.75">
-  <text x="54" y="320">01 / BUILD</text><text x="220" y="320">02 / DEBUG</text><text x="390" y="320">03 / LEARN</text><text x="560" y="320">04 / SHIP</text><text x="730" y="320">05 / IMPROVE</text><text x="930" y="320">06 / REPEAT</text>
-</g>
-<rect x="54" y="334" width="1092" height="2" rx="1" fill="#58A6FF" opacity="0.12"/>
-<rect x="54" y="334" width="120" height="2" rx="1" fill="#58A6FF" filter="url(#glow)">
-  <animate attributeName="x" values="54;1026;54" dur="4s" repeatCount="indefinite"/>
-</rect>
+<g font-family="monospace" font-size="10" letter-spacing="2" fill="#76B8FF" opacity=".8"><text x="54" y="42">RAGUL.S // WEB.DEVELOPER</text><text x="1146" y="42" text-anchor="end">SYSTEM • ONLINE</text></g><circle cx="1082" cy="38" r="3" fill="#58A6FF"><animate attributeName="opacity" values="1;.25;1" dur="1.2s" repeatCount="indefinite"/></circle>
+<text x="600" y="103" text-anchor="middle" fill="#8AB8FF" font-family="monospace" font-size="14" letter-spacing="6">GITHUB DEVELOPER PROFILE</text>
+<text x="600" y="168" text-anchor="middle" fill="url(#hero)" font-family="Arial, sans-serif" font-size="58" font-weight="800" letter-spacing="9">RAGUL S</text>
+<text x="600" y="208" text-anchor="middle" fill="#E6F1FF" font-family="monospace" font-size="17" letter-spacing="1">FULL STACK WEB DEVELOPER</text>
+<text x="600" y="239" text-anchor="middle" fill="#91A9C8" font-family="monospace" font-size="13">PYTHON  •  DJANGO  •  JAVASCRIPT  •  REACT  •  SQL</text>
+<rect x="120" y="258" width="960" height="1" fill="#58A6FF" opacity=".12"/><rect x="120" y="258" width="170" height="2" fill="url(#beam)"><animate attributeName="x" values="120;910;120" dur="4s" repeatCount="indefinite"/></rect>
+<g font-family="monospace" font-size="10" fill="#78B9FF"><text x="55" y="315">01 / BUILD</text><text x="225" y="315">02 / DEBUG</text><text x="395" y="315">03 / LEARN</text><text x="565" y="315">04 / SHIP</text><text x="735" y="315">05 / IMPROVE</text><text x="945" y="315">06 / REPEAT</text></g>
+<g stroke="#58A6FF" stroke-opacity=".2" stroke-width="1"><path d="M55 326H1145"/><path d="M175 321V331M345 321V331M515 321V331M685 321V331M855 321V331M925 321V331"/></g>
+<circle cx="55" cy="326" r="3" fill="#58A6FF"><animate attributeName="cx" values="55;1145;55" dur="7s" repeatCount="indefinite"/></circle>
+<text x="600" y="347" text-anchor="middle" fill="#A8C8F0" font-family="monospace" font-size="12" letter-spacing="2">CODE → CREATE → LEARN → SHIP → REPEAT</text>
 </svg>
