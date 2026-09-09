@@ -35,9 +35,8 @@ I work with **Python, Django, Django REST Framework, JavaScript, React, HTML, CS
 </tr>
 </table>
 
-<div align="center">
-<img src="https://raw.githubusercontent.com/Ragul0224/Ragul0224/main/assets/profile-sections.svg" width="100%" alt="Animated developer section" />
-</div>
+<div align="center"><img src="https://raw.githubusercontent.com/Ragul0224/Ragul0224/main/assets/profile-sections.svg" width="100%" alt="Animated developer section" /></div>
+<div align="center"><img src="https://raw.githubusercontent.com/Ragul0224/Ragul0224/main/assets/animated-section-divider.svg" width="100%" alt="Animated section divider" /></div>
 
 ---
 
@@ -63,6 +62,8 @@ class RagulS:
 - 🚀 Optimized Django ORM queries
 - 🧩 Clean, maintainable and scalable web solutions
 
+<div align="center"><img src="https://raw.githubusercontent.com/Ragul0224/Ragul0224/main/assets/animated-section-divider.svg" width="100%" alt="Animated section divider" /></div>
+
 ---
 
 ## 🛠️ `TECHNOLOGY MATRIX`
@@ -81,6 +82,8 @@ class RagulS:
 | **Languages** | Python · Java · PHP · JavaScript |
 | **Tools** | Git · GitHub · VS Code |
 
+<div align="center"><img src="https://raw.githubusercontent.com/Ragul0224/Ragul0224/main/assets/animated-section-divider.svg" width="100%" alt="Animated section divider" /></div>
+
 ---
 
 ## 💼 `EXPERIENCE`
@@ -94,6 +97,8 @@ class RagulS:
 - Worked with relational databases and Django ORM queries.
 - Developed and tested a real-time movie booking platform.
 - Used Git and GitHub throughout development, debugging and version control.
+
+<div align="center"><img src="https://raw.githubusercontent.com/Ragul0224/Ragul0224/main/assets/animated-section-divider.svg" width="100%" alt="Animated section divider" /></div>
 
 ---
 
@@ -136,6 +141,8 @@ Travel planning, itinerary recommendations, destination management and responsiv
 
 Donor management, blood inventory, administrative tracking, validation and reporting.
 
+<div align="center"><img src="https://raw.githubusercontent.com/Ragul0224/Ragul0224/main/assets/animated-section-divider.svg" width="100%" alt="Animated section divider" /></div>
+
 ---
 
 ## 🎓 `EDUCATION`
@@ -144,6 +151,8 @@ Donor management, blood inventory, administrative tracking, validation and repor
 |---|---|---|---|
 | **MCA** | Sathyabama Institute of Science and Technology, Chennai | 2024 – 2026 | CGPA 7.0/10 |
 | **BCA** | Agurchand Manmull Jain College, Chennai | 2020 – 2023 | CGPA 8.2/10 |
+
+<div align="center"><img src="https://raw.githubusercontent.com/Ragul0224/Ragul0224/main/assets/animated-section-divider.svg" width="100%" alt="Animated section divider" /></div>
 
 ---
 
@@ -154,6 +163,8 @@ Donor management, blood inventory, administrative tracking, validation and repor
 - RDBMS PostgreSQL Training
 - Full Stack Web Development — Internship Certificate
 - Full Stack Web Development — Internship Training Certificate
+
+<div align="center"><img src="https://raw.githubusercontent.com/Ragul0224/Ragul0224/main/assets/animated-section-divider.svg" width="100%" alt="Animated section divider" /></div>
 
 ---
 
@@ -170,6 +181,8 @@ Donor management, blood inventory, administrative tracking, validation and repor
 
 </div>
 
+<div align="center"><img src="https://raw.githubusercontent.com/Ragul0224/Ragul0224/main/assets/animated-section-divider.svg" width="100%" alt="Animated section divider" /></div>
+
 ---
 
 ## 🧬 `DEVELOPER DNA`
@@ -177,6 +190,8 @@ Donor management, blood inventory, administrative tracking, validation and repor
 <div align="center">
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Ragul0224&bg_color=030507&color=58A6FF&line=8AB8FF&point=FFFFFF&area_color=58A6FF&area=true&hide_border=true&custom_title=RAGUL%20S%20%E2%80%94%20CONTRIBUTION%20MOTION" width="100%" alt="GitHub contribution activity" />
 </div>
+
+<div align="center"><img src="https://raw.githubusercontent.com/Ragul0224/Ragul0224/main/assets/animated-section-divider.svg" width="100%" alt="Animated section divider" /></div>
 
 ---
 
@@ -186,18 +201,19 @@ Donor management, blood inventory, administrative tracking, validation and repor
 <img src="https://raw.githubusercontent.com/Ragul0224/Ragul0224/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution snake animation" />
 </div>
 
+<div align="center"><img src="https://raw.githubusercontent.com/Ragul0224/Ragul0224/main/assets/animated-section-divider.svg" width="100%" alt="Animated section divider" /></div>
+
 ---
 
 ## 🎯 `CURRENT MISSION`
 
-```text
-[████████████████████] BUILDING
-[██████████████████░░] LEARNING
-[█████████████████░░░] IMPROVING
-[████████████████░░░░] SHIPPING
-```
+<div align="center">
+<img src="https://raw.githubusercontent.com/Ragul0224/Ragul0224/main/assets/developer-mission.svg" width="100%" alt="Animated developer mission" />
+</div>
 
 > Building practical software, improving every day, and turning ideas into working products.
+
+<div align="center"><img src="https://raw.githubusercontent.com/Ragul0224/Ragul0224/main/assets/animated-section-divider.svg" width="100%" alt="Animated section divider" /></div>
 
 ---
 
@@ -211,8 +227,6 @@ Donor management, blood inventory, administrative tracking, validation and repor
 
 <br/><br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=130&section=footer&color=0:030507,50:101827,100:030507&animation=twinkling" width="100%" />
-
-<b>CODE → CREATE → LEARN → SHIP → REPEAT</b>
+<img src="https://raw.githubusercontent.com/Ragul0224/Ragul0224/main/assets/profile-footer.svg" width="100%" alt="Animated premium developer footer" />
 
 </div>
