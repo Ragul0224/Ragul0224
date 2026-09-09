@@ -1,14 +1,8 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Ragul0224/Ragul0224/main/assets/profile-hero.svg" alt="Animated Ragul S developer banner" width="100%" />
+<img src="https://raw.githubusercontent.com/Ragul0224/Ragul0224/main/assets/github-profile-command-center.svg" width="100%" alt="Ragul S premium GitHub developer profile" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=25&duration=2200&pause=700&color=58A6FF&center=true&vCenter=true&width=950&lines=FRONTEND+DEVELOPER;FULL+STACK+WEB+DEVELOPER;PYTHON+%7C+DJANGO+%7C+REST+APIs;BUILDING+REAL-WORLD+WEB+APPLICATIONS;CODE.+CREATE.+SHIP.+REPEAT." alt="Animated developer roles" />
-
-<a href="https://my-portfolio-ragul.netlify.app"><img src="https://img.shields.io/badge/🚀%20LIVE%20PORTFOLIO-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" alt="Live portfolio" /></a>
-<a href="https://github.com/Ragul0224"><img src="https://img.shields.io/badge/💻%20GITHUB-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-<a href="https://linkedin.com/in/ragul-s-57a9a4296"><img src="https://img.shields.io/badge/🔗%20LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-
-<br/><br/>
+<img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=24&duration=2200&pause=700&color=58A6FF&center=true&vCenter=true&width=950&lines=FRONTEND+DEVELOPER;FULL+STACK+WEB+DEVELOPER;PYTHON+%7C+DJANGO+%7C+REST+APIs;BUILDING+REAL-WORLD+WEB+APPLICATIONS;CODE.+CREATE.+SHIP.+REPEAT." alt="Animated developer roles" />
 
 <img src="https://komarev.com/ghpvc/?username=Ragul0224&style=for-the-badge&color=58A6FF&label=PROFILE+VIEWS" alt="Profile views" />
 <img src="https://img.shields.io/github/followers/Ragul0224?style=for-the-badge&label=FOLLOWERS" alt="Followers" />
@@ -20,61 +14,72 @@
 
 ## ⚡ `SYSTEM ONLINE`
 
-<table><tr><td width="58%" valign="top">
+<table>
+<tr>
+<td width="62%" valign="top">
 
 ### Hey, I'm Ragul S 👋
 
 **Frontend Developer · Web Developer · Python Developer · Full Stack Developer**
 
-MCA graduate with hands-on experience in frontend and full-stack web development using **Python, Django, Django REST Framework, React, JavaScript, HTML, CSS and SQL**.
+MCA graduate focused on building responsive, database-driven and API-powered web applications. My development style is inspired by the same **dark, futuristic, animated and clean visual language** used across my personal portfolio.
 
-I build responsive web applications, REST APIs, authentication systems, CRUD workflows, database-driven applications, filtering, pagination and optimized queries.
+I work with **Python, Django, Django REST Framework, JavaScript, React, HTML, CSS, MySQL, PostgreSQL and SQL**, with practical experience in authentication, CRUD workflows, pagination, filtering, REST APIs and Git/GitHub.
 
-</td><td width="42%" align="center">
-<img src="https://skillicons.dev/icons?i=python,django,html,css,js,react,mysql,postgres,git,github,vscode&perline=4" alt="Technology stack" />
-</td></tr></table>
+</td>
+<td width="38%" align="center">
 
-<img src="https://raw.githubusercontent.com/Ragul0224/Ragul0224/main/assets/profile-sections.svg" alt="Animated developer profile section" width="100%" />
+<img src="https://skillicons.dev/icons?i=python,django,html,css,js,react,mysql,postgres,git,github,vscode&perline=4" alt="Ragul S technology stack" />
 
----
-
-## 🌐 `LIVE PORTFOLIO`
+</td>
+</tr>
+</table>
 
 <div align="center">
-
-### 🚀 Explore my complete portfolio
-
-<a href="https://my-portfolio-ragul.netlify.app"><img src="https://img.shields.io/badge/OPEN%20MY%20PORTFOLIO-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" alt="Open Ragul S portfolio" /></a>
-
-**Live site:** `my-portfolio-ragul.netlify.app`
-
+<img src="https://raw.githubusercontent.com/Ragul0224/Ragul0224/main/assets/profile-sections.svg" width="100%" alt="Animated developer section" />
 </div>
 
 ---
 
-## 🧠 `DEVELOPER PROFILE`
+## 🧠 `DEVELOPER IDENTITY`
 
 ```python
 class RagulS:
     name = "Ragul S"
-    roles = ["Frontend Developer", "Web Developer", "Python Developer", "Full Stack Developer"]
-    core = ["Python", "Django", "JavaScript", "React", "REST APIs", "SQL"]
-    approach = "Build • Learn • Improve • Ship"
+    title = "Full Stack Web Developer"
+    focus = ["Frontend", "Backend", "REST APIs", "Databases"]
+    stack = ["Python", "Django", "JavaScript", "React", "SQL"]
+    workflow = "BUILD → DEBUG → LEARN → SHIP → IMPROVE"
 ```
 
 ### What I build
-- Responsive frontend interfaces with HTML, CSS, JavaScript and React
-- Full-stack applications with Python and Django
-- RESTful APIs and frontend/backend integrations
-- Authentication, CRUD operations and form validation
-- Database-driven systems using MySQL, PostgreSQL and SQL
-- Server-side filtering, pagination and ORM query optimization
+
+- ⚡ Responsive frontend interfaces
+- 🐍 Python + Django full-stack applications
+- 🔌 RESTful APIs and frontend/backend integrations
+- 🔐 Authentication and secure CRUD workflows
+- 🗄️ MySQL / PostgreSQL database-driven systems
+- 🔎 Server-side filtering and pagination
+- 🚀 Optimized Django ORM queries
+- 🧩 Clean, maintainable and scalable web solutions
 
 ---
 
-## 🛠️ `TECH STACK`
+## 🛠️ `TECHNOLOGY MATRIX`
 
-<div align="center"><img src="https://skillicons.dev/icons?i=python,php,html,css,js,react,django,mysql,postgres,git,github,vscode&perline=6" alt="Full technology stack" /></div>
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=python,java,php,html,css,js,react,django,mysql,postgres,git,github,vscode&perline=7" alt="Ragul S technology matrix" />
+
+</div>
+
+| Layer | Technologies |
+|---|---|
+| **Frontend** | HTML5 · CSS3 · JavaScript · React |
+| **Backend** | Python · Django · Django REST Framework |
+| **Database** | MySQL · PostgreSQL · SQL |
+| **Languages** | Python · Java · PHP · JavaScript |
+| **Tools** | Git · GitHub · VS Code |
 
 ---
 
@@ -83,36 +88,53 @@ class RagulS:
 ### Full Stack Web Development Intern — Elevance Skills
 **Mar 2026 – 2026**
 
-- Developed full-stack web applications using Python, Django, React, HTML, CSS and JavaScript.
-- Designed and integrated RESTful APIs for frontend and backend communication.
-- Implemented CRUD operations, authentication, database integration, form validation and pagination.
+- Built full-stack web applications using Python, Django, React, HTML, CSS and JavaScript.
+- Designed and integrated RESTful APIs for frontend/backend communication.
+- Implemented CRUD operations, authentication, database integration, validation and pagination.
 - Worked with relational databases and Django ORM queries.
-- Developed and tested a real-time movie booking platform inspired by BookMyShow.
-- Used Git and GitHub for version control, debugging and project development.
+- Developed and tested a real-time movie booking platform.
+- Used Git and GitHub throughout development, debugging and version control.
 
 ---
 
-## 🚀 `PROJECT ARCHIVE`
+## 🚀 `PROJECTS`
 
-<div align="center"><a href="https://github.com/Ragul0224/Bookmyshow"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Ragul0224&repo=Bookmyshow&theme=github_dark&hide_border=true&show_owner=true" /></a> <a href="https://github.com/Ragul0224/Wander-wise-using-python-django"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Ragul0224&repo=Wander-wise-using-python-django&theme=github_dark&hide_border=true&show_owner=true" /></a></div>
+<div align="center">
+
+<a href="https://github.com/Ragul0224/Bookmyshow"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Ragul0224&repo=Bookmyshow&theme=github_dark&hide_border=true&show_owner=true" /></a>
+<a href="https://github.com/Ragul0224/Wander-wise-using-python-django"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Ragul0224&repo=Wander-wise-using-python-django&theme=github_dark&hide_border=true&show_owner=true" /></a>
+
+</div>
 
 ### 🎬 BookMyShow — Real-Time Movie Booking Platform
-**Python · Django · REST API** — Movie browsing, theatre selection, filtering, booking workflows, pagination, optimized queries and automated ticket email confirmation.
+**Python · Django · REST API**
+
+Movie browsing, theatre selection, filtering, booking workflows, pagination, optimized queries and automated ticket email confirmation.
 
 ### 🎓 College ERP Management System
-**Python · Django · MySQL** — Student, faculty, course, attendance and academic-record management with role-based authentication, dashboards and CRUD.
+**Python · Django · MySQL**
+
+Student, faculty, course, attendance and academic-record management with authentication, dashboards and CRUD workflows.
 
 ### 👶 Real-Time Fetal Motion Tracking and Intelligent Alerting System
-**IoT · Final Year MCA Project** — Sensor-based real-time data collection, wireless cloud transmission and intelligent alert mechanisms.
+**IoT · MCA Final Year Project**
+
+Sensor-based real-time data collection, wireless cloud transmission and intelligent alert mechanisms.
 
 ### 🧵 EmpowerHer — Handcrafted Product Showcase
-**Python · Django · Java · Android** — Android application with Django REST APIs, OTP authentication, product management and cloud database integration.
+**Python · Django · Java · Android**
+
+Android application with Django REST APIs, OTP authentication, product management and cloud database integration.
 
 ### ✈️ WanderWise — AI-Based Travel Planner
-**Python · Django · MCA Mini Project** — Travel planning, itinerary recommendations, destination management and responsive interfaces.
+**Python · Django · MCA Mini Project**
+
+Travel planning, itinerary recommendations, destination management and responsive interfaces.
 
 ### 🩸 Blood Bank Management System
-**PHP · MySQL · BCA Final Year Project** — Donor management, blood inventory, administrative tracking, validation and reporting.
+**PHP · MySQL · BCA Final Year Project**
+
+Donor management, blood inventory, administrative tracking, validation and reporting.
 
 ---
 
@@ -135,18 +157,34 @@ class RagulS:
 
 ---
 
-## 📈 `GITHUB COMMAND CENTER`
+## 📊 `GITHUB ANALYTICS`
 
-<div align="center"><img height="180" src="https://github-readme-stats.vercel.app/api?username=Ragul0224&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github&include_all_commits=true" /> <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ragul0224&layout=compact&theme=github_dark&hide_border=true&langs_count=8" /><br/><img src="https://streak-stats.demolab.com?user=Ragul0224&theme=github-dark-blue&hide_border=true&mode=weekly" /></div>
+<div align="center">
+
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=Ragul0224&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github&include_all_commits=true" />
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ragul0224&layout=compact&theme=github_dark&hide_border=true&langs_count=8" />
+
+<br/>
+
+<img src="https://streak-stats.demolab.com?user=Ragul0224&theme=github-dark-blue&hide_border=true&mode=weekly" />
+
+</div>
 
 ---
 
 ## 🧬 `DEVELOPER DNA`
 
-<div align="center"><img src="https://github-readme-activity-graph.vercel.app/graph?username=Ragul0224&bg_color=030507&color=58A6FF&line=8AB8FF&point=FFFFFF&area_color=58A6FF&area=true&hide_border=true&custom_title=RAGUL%20S%20%E2%80%94%20CONTRIBUTION%20MOTION" width="100%" /></div>
+<div align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Ragul0224&bg_color=030507&color=58A6FF&line=8AB8FF&point=FFFFFF&area_color=58A6FF&area=true&hide_border=true&custom_title=RAGUL%20S%20%E2%80%94%20CONTRIBUTION%20MOTION" width="100%" alt="GitHub contribution activity" />
+</div>
+
+---
 
 ## 🐍 `CONTRIBUTION ENGINE`
-<div align="center"><img src="https://raw.githubusercontent.com/Ragul0224/Ragul0224/output/github-contribution-grid-snake-dark.svg" width="100%" /></div>
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/Ragul0224/Ragul0224/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution snake animation" />
+</div>
 
 ---
 
@@ -159,19 +197,22 @@ class RagulS:
 [████████████████░░░░] SHIPPING
 ```
 
+> Building practical software, improving every day, and turning ideas into working products.
+
 ---
 
-## 📫 `CONTACT`
+## 🌐 `CONNECT`
 
 <div align="center">
 
-<a href="https://my-portfolio-ragul.netlify.app"><img src="https://img.shields.io/badge/🚀%20LIVE%20PORTFOLIO-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" /></a>
 <a href="https://github.com/Ragul0224"><img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
 <a href="https://linkedin.com/in/ragul-s-57a9a4296"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <a href="mailto:ragul.sbca@gmail.com"><img src="https://img.shields.io/badge/EMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 
 <br/><br/>
-<img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:030507,50:101827,100:030507&animation=twinkling" width="100%" />
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=130&section=footer&color=0:030507,50:101827,100:030507&animation=twinkling" width="100%" />
+
 <b>CODE → CREATE → LEARN → SHIP → REPEAT</b>
 
 </div>
