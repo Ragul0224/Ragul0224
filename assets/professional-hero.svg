@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 360" role="img" aria-labelledby="title desc">
+<title id="title">Ragul S — Professional Developer</title><desc id="desc">Animated cinematic developer banner</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0d1117"/><stop offset=".55" stop-color="#111827"/><stop offset="1" stop-color="#0d1117"/></linearGradient>
+ <linearGradient id="line" x1="0" x2="1"><stop stop-color="#58a6ff" stop-opacity="0"/><stop offset=".5" stop-color="#58a6ff"/><stop offset="1" stop-color="#58a6ff" stop-opacity="0"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <style>
+  .grid{stroke:#58a6ff;stroke-opacity:.08}.mono{font-family:monospace;fill:#8b949e}.title{font-family:Arial,sans-serif;font-weight:700;fill:#f0f6fc}.accent{fill:#58a6ff}
+  @keyframes drift{from{transform:translateX(-120px)}to{transform:translateX(120px)}}
+  @keyframes pulse{0%,100%{opacity:.25}50%{opacity:1}}
+  .beam{animation:drift 5s ease-in-out infinite alternate}.dot{animation:pulse 2s ease-in-out infinite}
+ </style>
+</defs>
+<rect width="1400" height="360" rx="24" fill="url(#bg)"/>
+<g class="grid">
+ <path d="M0 60H1400M0 120H1400M0 180H1400M0 240H1400M0 300H1400"/>
+ <path d="M100 0V360M220 0V360M340 0V360M460 0V360M580 0V360M700 0V360M820 0V360M940 0V360M1060 0V360M1180 0V360M1300 0V360"/>
+</g>
+<g opacity=".7" class="beam" filter="url(#glow)"><path d="M-100 290C250 130 440 390 780 190S1220 50 1500 120" fill="none" stroke="url(#line)" stroke-width="2"/></g>
+<g class="dot"><circle cx="1120" cy="92" r="3" fill="#58a6ff"/><circle cx="1160" cy="140" r="2" fill="#58a6ff"/><circle cx="1260" cy="220" r="3" fill="#58a6ff"/></g>
+<text x="90" y="118" class="mono" font-size="18">// DEVELOPER PROFILE</text>
+<text x="88" y="180" class="title" font-size="64">RAGUL S</text>
+<rect x="90" y="205" width="90" height="4" rx="2" fill="#58a6ff"/>
+<text x="90" y="252" class="title" font-size="25">Frontend • Python • Django • React • Full Stack</text>
+<text x="90" y="292" class="mono" font-size="17">Building responsive, API-powered and database-driven web applications.</text>
+<text x="90" y="325" class="mono" font-size="14">MCA • Sathyabama Institute of Science and Technology • Chennai</text>
+<text x="1260" y="320" class="accent" font-family="monospace" font-size="14">01 / 01</text>
+</svg>
